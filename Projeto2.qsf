@@ -63,3 +63,4 @@ set_global_assignment -name VHDL_FILE estendeSinalGenerico.vhd
 set_global_assignment -name VHDL_FILE avgULAbit.vhd
 set_global_assignment -name VHDL_FILE overflowULAbit.vhd
 set_global_assignment -name VHDL_FILE ULAcntrl.vhd
+set_global_assignment -name VHDL_FILE LUI.vhd
