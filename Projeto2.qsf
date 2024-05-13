@@ -49,6 +49,8 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE Control.vhd
+set_global_assignment -name VHDL_FILE decoderInstru.vhd
 set_global_assignment -name VHDL_FILE muxGenerico4x1.vhd
 set_global_assignment -name VHDL_FILE ROMMIPS.vhd
 set_global_assignment -name VHDL_FILE muxGenerico2x1.vhd
@@ -60,3 +62,4 @@ set_global_assignment -name VHDL_FILE somaConstante.vhd
 set_global_assignment -name VHDL_FILE estendeSinalGenerico.vhd
 set_global_assignment -name VHDL_FILE avgULAbit.vhd
 set_global_assignment -name VHDL_FILE overflowULAbit.vhd
+set_global_assignment -name VHDL_FILE ULAcntrl.vhd
