@@ -42,18 +42,23 @@ architecture comportamento of ULAcntrl is
 	signal mOut : std_logic_vector(5 downto 0);
 	
 	begin
-
+	
+   --	Ao invés de fazer dois decodificadores que definem uma saída diretamente para um MUX que tem como seletor o sinal de tipo R,
+	--	realizar qual parte do registrador deve ser lida antes com o MUX_OPCODE_FUNCT e depois interpretar a saída desse mux com um
+	--	único decodificador diretamente na saida (seletor da ULA)
+	
 		MUX_OPCODE_FUNCT  : entity work.muxGenerico2x1 
-						  generic map (larguraDados => 6)
-						  port map (
-									entradaA_MUX => opcode, 
-									entradaB_MUX => funct, 
-									seletor_MUX  => tipoR, 
-									saida_MUX    => mOut);
+								  generic map (larguraDados => 6)
+								  port map (
+											entradaA_MUX => opcode, 
+											entradaB_MUX => funct, 
+											seletor_MUX  => tipoR, 
+											saida_MUX    => mOut);
 									
-		saida <=   	ADDsel when (mOut = LW  ) OR
-										(mOut = SW  ) OR
-									   (mOut = LW  ) OR
+		saida <=   	ADDsel when (mOut = ADDi) OR
+										(mOut = ADDr) OR
+										(mOut = LW  ) OR
+									   (mOut = SW  ) OR
 									   (mOut = ADDr) OR
 									   (mOut = ADDi) else
 										 
@@ -73,6 +78,5 @@ architecture comportamento of ULAcntrl is
 										(mOut = SUBr) else
 						
 						ADDsel;
-						
 						
 	end architecture;

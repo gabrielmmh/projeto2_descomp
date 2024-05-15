@@ -17,6 +17,7 @@ architecture comportamento of avgULAbit is
   begin
   
     MUX_INV_A  : entity work.muxGenerico2x1 
+					  generic map (larguraDados => 1)
 					  port map (
 								entradaA_MUX => A, 
 								entradaB_MUX => not A, 
@@ -24,6 +25,7 @@ architecture comportamento of avgULAbit is
 								saida_MUX    => mOutA);
 								
     MUX_INV_B  : entity work.muxGenerico2x1 
+					  generic map (larguraDados => 1)
 					  port map (
 								entradaA_MUX => B, 
 								entradaB_MUX => not B, 
@@ -31,6 +33,7 @@ architecture comportamento of avgULAbit is
 								saida_MUX    => mOutB);
 								
     MUX_RESULT : entity work.muxGenerico4x1 
+					  generic map (larguraDados => 1)
 					  port map (
 								entradaA_MUX => (mOutA and mOutB), 
 								entradaB_MUX => (mOutA or mOutB), 
