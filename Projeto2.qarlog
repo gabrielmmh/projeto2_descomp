@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Projeto2.qarlog
+
+Archive:	C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Projeto2.qar
+Date:		Sun May 19 19:36:06 2024
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Control.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/LUI.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Projeto2.qpf
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Projeto2.qsf
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMMIPS.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMcontent.mif
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULAcntrl.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/avgULAbit.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/bancoReg.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/estendeSinalGenerico.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/hexTo7seg.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit2x1.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit4x1.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico2x1.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico4x1.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/overflowULAbit.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/registradorGenerico.vhd
+C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/somaConstante.vhd
+c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

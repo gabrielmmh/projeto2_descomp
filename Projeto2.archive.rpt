@@ -1,0 +1,99 @@
+Archive Project report for Projeto2
+Sun May 19 19:36:06 2024
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun May 19 19:36:06 2024 ;
+; Revision Name          ; Projeto2                              ;
+; Top-level Entity Name  ; MIPS                                  ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Projeto2.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Projeto2.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4830 megabytes
+    Info: Processing ended: Sun May 19 19:36:06 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                  ;
++-------------------------------------------------------------------------------------------------+
+; File Name                                                                                       ;
++-------------------------------------------------------------------------------------------------+
+; avgULAbit.vhd                                                                                   ;
+; bancoReg.vhd                                                                                    ;
+; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/bin64/assignment_defaults.qdf ;
+; Control.vhd                                                                                     ;
+; edgeDetector.vhd                                                                                ;
+; estendeSinalGenerico.vhd                                                                        ;
+; hexTo7seg.vhd                                                                                   ;
+; LUI.vhd                                                                                         ;
+; MIPS.vhd                                                                                        ;
+; mux1Bit2x1.vhd                                                                                  ;
+; mux1Bit4x1.vhd                                                                                  ;
+; muxGenerico2x1.vhd                                                                              ;
+; muxGenerico4x1.vhd                                                                              ;
+; overflowULAbit.vhd                                                                              ;
+; Projeto2.qpf                                                                                    ;
+; Projeto2.qsf                                                                                    ;
+; RAMMIPS.vhd                                                                                     ;
+; registradorGenerico.vhd                                                                         ;
+; ROMcontent.mif                                                                                  ;
+; ROMMIPS.vhd                                                                                     ;
+; somaConstante.vhd                                                                               ;
+; ULA.vhd                                                                                         ;
+; ULAcntrl.vhd                                                                                    ;
++-------------------------------------------------------------------------------------------------+
+
+

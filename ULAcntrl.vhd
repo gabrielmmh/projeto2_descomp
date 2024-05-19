@@ -50,10 +50,10 @@ architecture comportamento of ULAcntrl is
 		MUX_OPCODE_FUNCT  : entity work.muxGenerico2x1 
 								  generic map (larguraDados => 6)
 								  port map (
-											entradaA_MUX => opcode, 
-											entradaB_MUX => funct, 
-											seletor_MUX  => tipoR, 
-											saida_MUX    => mOut);
+										  entradaA_MUX => opcode, 
+										  entradaB_MUX => funct, 
+										  seletor_MUX  => tipoR, 
+										  saida_MUX    => mOut);
 									
 		saida <=   	ADDsel when (mOut = ADDi) OR
 										(mOut = ADDr) OR
