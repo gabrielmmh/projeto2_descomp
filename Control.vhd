@@ -14,7 +14,7 @@ architecture comportamento of Control is
 	-- Definição de aliases para os sinais de controle
 	alias JR            : std_logic is pControle(13);
 	alias smPBJ         : std_logic is pControle(12);
-	alias smRtRd        : std_logic_vector(1 downto 0) is pControle(11 downto 10);
+	alias smRtRd31      : std_logic_vector(1 downto 0) is pControle(11 downto 10);
 	alias OriAndi       : std_logic is pControle(9);
 	alias habEscReg     : std_logic is pControle(8);
 	alias smRtIm        : std_logic is pControle(7);
@@ -57,7 +57,7 @@ architecture comportamento of Control is
 											opcode = JAL)        else 
 							  '0';
 		
-		smRtRd        <= "01" when opcode = tipoRinstr else 
+		smRtRd31      <= "01" when opcode = tipoRinstr else 
 							  "10" when opcode = JAL        else 
 							  "00";
 							  

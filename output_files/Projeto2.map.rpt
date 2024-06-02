@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Projeto2
-Sun May 19 18:51:04 2024
+Sat Jun 01 22:02:14 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -13,68 +13,85 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Multiplexer Restructuring Statistics (Restructuring Performed)
- 10. Parameter Settings for User Entity Instance: Top-level Entity: |MIPS
- 11. Parameter Settings for User Entity Instance: registradorGenerico:PC
- 12. Parameter Settings for User Entity Instance: somaConstante:INC_PC4
- 13. Parameter Settings for User Entity Instance: ROMMIPS:ROM
- 14. Parameter Settings for User Entity Instance: muxGenerico4x1:MUX_Rt_Rd_R31
- 15. Parameter Settings for User Entity Instance: bancoReg:BANCO_REG
- 16. Parameter Settings for User Entity Instance: estendeSinalGenerico:EXT_SINAL
- 17. Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_Rt_IMM
- 18. Parameter Settings for User Entity Instance: ULAcntrl:ULAcntrl|muxGenerico2x1:MUX_OPCODE_FUNCT
- 19. Parameter Settings for User Entity Instance: ULA:ULA
- 20. Parameter Settings for User Entity Instance: RAMMIPS:RAM
- 21. Parameter Settings for User Entity Instance: muxGenerico4x1:MUX_DADO_ESCRITO
- 22. Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_PC4_IMM
- 23. Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_BRANCH
- 24. Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_PROX_PC
- 25. Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_HEX
- 26. Port Connectivity Checks: "hexTo7seg:DEC_HEX5"
- 27. Port Connectivity Checks: "hexTo7seg:DEC_HEX4"
- 28. Port Connectivity Checks: "hexTo7seg:DEC_HEX3"
- 29. Port Connectivity Checks: "hexTo7seg:DEC_HEX2"
- 30. Port Connectivity Checks: "hexTo7seg:DEC_HEX1"
- 31. Port Connectivity Checks: "hexTo7seg:DEC_HEX0"
- 32. Port Connectivity Checks: "muxGenerico2x1:MUX_BRANCH"
- 33. Port Connectivity Checks: "RAMMIPS:RAM"
- 34. Port Connectivity Checks: "ULA:ULA|overflowULAbit:bit31"
- 35. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit30"
- 36. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit29"
- 37. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit28"
- 38. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit27"
- 39. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit26"
- 40. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit25"
- 41. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit24"
- 42. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit23"
- 43. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit22"
- 44. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit21"
- 45. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit20"
- 46. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit19"
- 47. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit18"
- 48. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit17"
- 49. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit16"
- 50. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit15"
- 51. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit14"
- 52. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit13"
- 53. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit12"
- 54. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit11"
- 55. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit10"
- 56. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit09"
- 57. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit08"
- 58. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit07"
- 59. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit06"
- 60. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit05"
- 61. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit04"
- 62. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit03"
- 63. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit02"
- 64. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit01"
- 65. Port Connectivity Checks: "muxGenerico4x1:MUX_Rt_Rd_R31"
- 66. Port Connectivity Checks: "registradorGenerico:PC"
- 67. Post-Synthesis Netlist Statistics for Top Partition
- 68. Elapsed Time Per Partition
- 69. Analysis & Synthesis Messages
+  8. Analysis & Synthesis RAM Summary
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Registers Added for RAM Pass-Through Logic
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for bancoReg:B_REG|altsyncram:registrador_rtl_0|altsyncram_6ji1:auto_generated
+ 15. Source assignments for bancoReg:B_REG|altsyncram:registrador_rtl_1|altsyncram_6ji1:auto_generated
+ 16. Parameter Settings for User Entity Instance: Top-level Entity: |MIPS
+ 17. Parameter Settings for User Entity Instance: muxGenerico2x1:M_PC4_ADD
+ 18. Parameter Settings for User Entity Instance: muxGenerico2x1:M_JMP
+ 19. Parameter Settings for User Entity Instance: muxGenerico2x1:M_PROX_PC
+ 20. Parameter Settings for User Entity Instance: registradorGenerico:PC
+ 21. Parameter Settings for User Entity Instance: somaConstante:INC_PC4
+ 22. Parameter Settings for User Entity Instance: ROMMIPS:ROM
+ 23. Parameter Settings for User Entity Instance: registradorGenerico:REG_IF_ID
+ 24. Parameter Settings for User Entity Instance: bancoReg:B_REG
+ 25. Parameter Settings for User Entity Instance: estendeSinalGenerico:EXT_SINAL
+ 26. Parameter Settings for User Entity Instance: registradorGenerico:REG_ID_EX
+ 27. Parameter Settings for User Entity Instance: muxGenerico4x1:M_RtRd31
+ 28. Parameter Settings for User Entity Instance: muxGenerico2x1:M_Rt_IMM
+ 29. Parameter Settings for User Entity Instance: ULAcntrl:ULAcntrl|muxGenerico2x1:MUX_OPCODE_FUNCT
+ 30. Parameter Settings for User Entity Instance: ULA:ULA
+ 31. Parameter Settings for User Entity Instance: registradorGenerico:R_EX_MEM
+ 32. Parameter Settings for User Entity Instance: RAMMIPS:RAM
+ 33. Parameter Settings for User Entity Instance: registradorGenerico:R_MEM_WB
+ 34. Parameter Settings for User Entity Instance: muxGenerico4x1:M_DD_ESCR
+ 35. Parameter Settings for User Entity Instance: muxGenerico4x1:M_HEX
+ 36. Parameter Settings for Inferred Entity Instance: bancoReg:B_REG|altsyncram:registrador_rtl_0
+ 37. Parameter Settings for Inferred Entity Instance: bancoReg:B_REG|altsyncram:registrador_rtl_1
+ 38. altsyncram Parameter Settings by Entity Instance
+ 39. Port Connectivity Checks: "hexTo7seg:DEC_HEX5"
+ 40. Port Connectivity Checks: "hexTo7seg:DEC_HEX4"
+ 41. Port Connectivity Checks: "hexTo7seg:DEC_HEX3"
+ 42. Port Connectivity Checks: "hexTo7seg:DEC_HEX2"
+ 43. Port Connectivity Checks: "hexTo7seg:DEC_HEX1"
+ 44. Port Connectivity Checks: "hexTo7seg:DEC_HEX0"
+ 45. Port Connectivity Checks: "registradorGenerico:R_MEM_WB"
+ 46. Port Connectivity Checks: "RAMMIPS:RAM"
+ 47. Port Connectivity Checks: "registradorGenerico:R_EX_MEM"
+ 48. Port Connectivity Checks: "ULA:ULA|overflowULAbit:bit31"
+ 49. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit30"
+ 50. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit29"
+ 51. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit28"
+ 52. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit27"
+ 53. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit26"
+ 54. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit25"
+ 55. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit24"
+ 56. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit23"
+ 57. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit22"
+ 58. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit21"
+ 59. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit20"
+ 60. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit19"
+ 61. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit18"
+ 62. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit17"
+ 63. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit16"
+ 64. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit15"
+ 65. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit14"
+ 66. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit13"
+ 67. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit12"
+ 68. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit11"
+ 69. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit10"
+ 70. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit09"
+ 71. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit08"
+ 72. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit07"
+ 73. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit06"
+ 74. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit05"
+ 75. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit04"
+ 76. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit03"
+ 77. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit02"
+ 78. Port Connectivity Checks: "ULA:ULA|avgULAbit:bit01"
+ 79. Port Connectivity Checks: "muxGenerico4x1:M_RtRd31"
+ 80. Port Connectivity Checks: "registradorGenerico:REG_ID_EX"
+ 81. Port Connectivity Checks: "registradorGenerico:REG_IF_ID"
+ 82. Port Connectivity Checks: "registradorGenerico:PC"
+ 83. Port Connectivity Checks: "muxGenerico2x1:M_JMP"
+ 84. Post-Synthesis Netlist Statistics for Top Partition
+ 85. Elapsed Time Per Partition
+ 86. Analysis & Synthesis Messages
 
 
 
@@ -101,16 +118,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun May 19 18:51:04 2024       ;
+; Analysis & Synthesis Status     ; Successful - Sat Jun 01 22:02:14 2024       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; Projeto2                                    ;
 ; Top-level Entity Name           ; MIPS                                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 3106                                        ;
-; Total pins                      ; 68                                          ;
+; Total registers                 ; 2680                                        ;
+; Total pins                      ; 196                                         ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
+; Total block memory bits         ; 2,048                                       ;
 ; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -232,31 +249,41 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                       ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------+---------+
-; Control.vhd                      ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Control.vhd              ;         ;
-; muxGenerico4x1.vhd               ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico4x1.vhd       ;         ;
-; ROMMIPS.vhd                      ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMMIPS.vhd              ;         ;
-; muxGenerico2x1.vhd               ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico2x1.vhd       ;         ;
-; bancoReg.vhd                     ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/bancoReg.vhd             ;         ;
-; ULA.vhd                          ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd                  ;         ;
-; registradorGenerico.vhd          ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/registradorGenerico.vhd  ;         ;
-; RAMMIPS.vhd                      ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd              ;         ;
-; somaConstante.vhd                ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/somaConstante.vhd        ;         ;
-; estendeSinalGenerico.vhd         ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/estendeSinalGenerico.vhd ;         ;
-; avgULAbit.vhd                    ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/avgULAbit.vhd            ;         ;
-; overflowULAbit.vhd               ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/overflowULAbit.vhd       ;         ;
-; ULAcntrl.vhd                     ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULAcntrl.vhd             ;         ;
-; LUI.vhd                          ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/LUI.vhd                  ;         ;
-; MIPS.vhd                         ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd                 ;         ;
-; hexTo7seg.vhd                    ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/hexTo7seg.vhd            ;         ;
-; mux1Bit2x1.vhd                   ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit2x1.vhd           ;         ;
-; mux1Bit4x1.vhd                   ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit4x1.vhd           ;         ;
-; edgeDetector.vhd                 ; yes             ; User VHDL File  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd         ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                        ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                    ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; Control.vhd                      ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/Control.vhd                                  ;         ;
+; muxGenerico4x1.vhd               ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico4x1.vhd                           ;         ;
+; ROMMIPS.vhd                      ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMMIPS.vhd                                  ;         ;
+; muxGenerico2x1.vhd               ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/muxGenerico2x1.vhd                           ;         ;
+; bancoReg.vhd                     ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/bancoReg.vhd                                 ;         ;
+; ULA.vhd                          ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd                                      ;         ;
+; registradorGenerico.vhd          ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/registradorGenerico.vhd                      ;         ;
+; RAMMIPS.vhd                      ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd                                  ;         ;
+; somaConstante.vhd                ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/somaConstante.vhd                            ;         ;
+; estendeSinalGenerico.vhd         ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/estendeSinalGenerico.vhd                     ;         ;
+; avgULAbit.vhd                    ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/avgULAbit.vhd                                ;         ;
+; overflowULAbit.vhd               ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/overflowULAbit.vhd                           ;         ;
+; ULAcntrl.vhd                     ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULAcntrl.vhd                                 ;         ;
+; LUI.vhd                          ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/LUI.vhd                                      ;         ;
+; MIPS.vhd                         ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd                                     ;         ;
+; hexTo7seg.vhd                    ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/hexTo7seg.vhd                                ;         ;
+; mux1Bit2x1.vhd                   ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit2x1.vhd                               ;         ;
+; mux1Bit4x1.vhd                   ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/mux1Bit4x1.vhd                               ;         ;
+; edgeDetector.vhd                 ; yes             ; User VHDL File               ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd                             ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/aglobal201.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/users/gabriel/desktop/insper/6semestre/descomp/quartus/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_6ji1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/db/altsyncram_6ji1.tdf                       ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------+
@@ -264,170 +291,289 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------------------------+
 ; Resource                                    ; Usage                                      ;
 +---------------------------------------------+--------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 2418                                       ;
+; Estimate of Logic utilization (ALMs needed) ; 1798                                       ;
 ;                                             ;                                            ;
-; Combinational ALUT usage for logic          ; 1834                                       ;
-;     -- 7 input functions                    ; 266                                        ;
-;     -- 6 input functions                    ; 1069                                       ;
-;     -- 5 input functions                    ; 76                                         ;
-;     -- 4 input functions                    ; 129                                        ;
-;     -- <=3 input functions                  ; 294                                        ;
+; Combinational ALUT usage for logic          ; 1328                                       ;
+;     -- 7 input functions                    ; 16                                         ;
+;     -- 6 input functions                    ; 943                                        ;
+;     -- 5 input functions                    ; 77                                         ;
+;     -- 4 input functions                    ; 98                                         ;
+;     -- <=3 input functions                  ; 194                                        ;
 ;                                             ;                                            ;
-; Dedicated logic registers                   ; 3106                                       ;
+; Dedicated logic registers                   ; 2680                                       ;
 ;                                             ;                                            ;
-; I/O pins                                    ; 68                                         ;
+; I/O pins                                    ; 196                                        ;
+; Total MLAB memory bits                      ; 0                                          ;
+; Total block memory bits                     ; 2048                                       ;
 ;                                             ;                                            ;
 ; Total DSP Blocks                            ; 0                                          ;
 ;                                             ;                                            ;
 ; Maximum fan-out node                        ; edgeDetector:\gravar:EDGE_DETECT_CLK|saida ;
-; Maximum fan-out                             ; 3104                                       ;
-; Total fan-out                               ; 19230                                      ;
-; Average fan-out                             ; 3.79                                       ;
+; Maximum fan-out                             ; 2742                                       ;
+; Total fan-out                               ; 16196                                      ;
+; Average fan-out                             ; 3.63                                       ;
 +---------------------------------------------+--------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                  ;
-+---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                  ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name         ; Library Name ;
-+---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------------+--------------+
-; |MIPS                                       ; 1834 (32)           ; 3106 (0)                  ; 0                 ; 0          ; 68   ; 0            ; |MIPS                                                    ; MIPS                ; work         ;
-;    |Control:UNIDADE_CTRL|                   ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|Control:UNIDADE_CTRL                               ; Control             ; work         ;
-;    |RAMMIPS:RAM|                            ; 800 (800)           ; 2048 (2048)               ; 0                 ; 0          ; 0    ; 0            ; |MIPS|RAMMIPS:RAM                                        ; RAMMIPS             ; work         ;
-;    |ROMMIPS:ROM|                            ; 31 (31)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ROMMIPS:ROM                                        ; ROMMIPS             ; work         ;
-;    |ULA:ULA|                                ; 186 (9)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA                                            ; ULA                 ; work         ;
-;       |avgULAbit:bit00|                     ; 8 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit01|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit02|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit03|                     ; 6 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit04|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit05|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit06|                     ; 6 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit07|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit08|                     ; 7 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit09|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit10|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit11|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit12|                     ; 6 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit13|                     ; 6 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit13                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit13|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit13|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit14|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit15|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit16|                     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit17|                     ; 5 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit18|                     ; 6 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit18                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit18|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit18|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit19|                     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit20|                     ; 7 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit21|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit22|                     ; 5 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit23|                     ; 8 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit23                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit23|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit23|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit24|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit25|                     ; 7 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit26|                     ; 6 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit27|                     ; 5 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit28|                     ; 10 (3)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit29|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |avgULAbit:bit30|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30                            ; avgULAbit           ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit2x1:MUX_INV_A       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit2x1:MUX_INV_B       ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit4x1:MUX_RESULT      ; mux1Bit4x1          ; work         ;
-;       |overflowULAbit:bit31|                ; 7 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31                       ; overflowULAbit      ; work         ;
-;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit2x1:MUX_INV_A  ; mux1Bit2x1          ; work         ;
-;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit2x1:MUX_INV_B  ; mux1Bit2x1          ; work         ;
-;          |mux1Bit4x1:MUX_RESULT|            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit4x1:MUX_RESULT ; mux1Bit4x1          ; work         ;
-;    |ULAcntrl:ULAcntrl|                      ; 7 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULAcntrl:ULAcntrl                                  ; ULAcntrl            ; work         ;
-;       |muxGenerico2x1:MUX_OPCODE_FUNCT|     ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULAcntrl:ULAcntrl|muxGenerico2x1:MUX_OPCODE_FUNCT  ; muxGenerico2x1      ; work         ;
-;    |bancoReg:BANCO_REG|                     ; 586 (586)           ; 1024 (1024)               ; 0                 ; 0          ; 0    ; 0            ; |MIPS|bancoReg:BANCO_REG                                 ; bancoReg            ; work         ;
-;    |edgeDetector:\gravar:EDGE_DETECT_CLK|   ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|edgeDetector:\gravar:EDGE_DETECT_CLK               ; edgeDetector        ; work         ;
-;    |edgeDetector:\gravar:EDGE_DETECT_RESET| ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|edgeDetector:\gravar:EDGE_DETECT_RESET             ; edgeDetector        ; work         ;
-;    |hexTo7seg:DEC_HEX0|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX0                                 ; hexTo7seg           ; work         ;
-;    |hexTo7seg:DEC_HEX1|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX1                                 ; hexTo7seg           ; work         ;
-;    |hexTo7seg:DEC_HEX2|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX2                                 ; hexTo7seg           ; work         ;
-;    |hexTo7seg:DEC_HEX3|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX3                                 ; hexTo7seg           ; work         ;
-;    |hexTo7seg:DEC_HEX4|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX4                                 ; hexTo7seg           ; work         ;
-;    |hexTo7seg:DEC_HEX5|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX5                                 ; hexTo7seg           ; work         ;
-;    |muxGenerico2x1:MUX_HEX|                 ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico2x1:MUX_HEX                             ; muxGenerico2x1      ; work         ;
-;    |muxGenerico2x1:MUX_PROX_PC|             ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico2x1:MUX_PROX_PC                         ; muxGenerico2x1      ; work         ;
-;    |muxGenerico4x1:MUX_DADO_ESCRITO|        ; 36 (36)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico4x1:MUX_DADO_ESCRITO                    ; muxGenerico4x1      ; work         ;
-;    |muxGenerico4x1:MUX_Rt_Rd_R31|           ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico4x1:MUX_Rt_Rd_R31                       ; muxGenerico4x1      ; work         ;
-;    |registradorGenerico:PC|                 ; 3 (3)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:PC                             ; registradorGenerico ; work         ;
-;    |somaConstante:INC_PC4|                  ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|somaConstante:INC_PC4                              ; somaConstante       ; work         ;
-+---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                           ;
++---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
+; Compilation Hierarchy Node                  ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                              ; Entity Name          ; Library Name ;
++---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
+; |MIPS                                       ; 1328 (31)           ; 2680 (0)                  ; 2048              ; 0          ; 196  ; 0            ; |MIPS                                                                            ; MIPS                 ; work         ;
+;    |Control:UNI_CTRL|                       ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|Control:UNI_CTRL                                                           ; Control              ; work         ;
+;    |RAMMIPS:RAM|                            ; 800 (800)           ; 2048 (2048)               ; 0                 ; 0          ; 0    ; 0            ; |MIPS|RAMMIPS:RAM                                                                ; RAMMIPS              ; work         ;
+;    |ROMMIPS:ROM|                            ; 25 (25)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ROMMIPS:ROM                                                                ; ROMMIPS              ; work         ;
+;    |ULA:ULA|                                ; 167 (10)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA                                                                    ; ULA                  ; work         ;
+;       |avgULAbit:bit00|                     ; 11 (1)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit00|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit01|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit01|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit02|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit02|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit03|                     ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit03|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit04|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit05|                     ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit05|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit06|                     ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit07|                     ; 6 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit07|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit08|                     ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit08|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit09|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit09|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit10|                     ; 6 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit11|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit11|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit12|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit12|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit13|                     ; 8 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit13                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit13|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit14|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit14|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit15|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit15|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit16|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit17|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit17|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit18|                     ; 8 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit18                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit18|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit19|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit19|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit20|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit20|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit21|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit21|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit22|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit22|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit23|                     ; 8 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit23                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit23|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit24|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit24|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit25|                     ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit25|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit26|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit26|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit27|                     ; 5 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit27|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit28|                     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit28|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit29|                     ; 7 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit29|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |avgULAbit:bit30|                     ; 7 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30                                                    ; avgULAbit            ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit2x1:MUX_INV_A                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit2x1:MUX_INV_B                               ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|avgULAbit:bit30|mux1Bit4x1:MUX_RESULT                              ; mux1Bit4x1           ; work         ;
+;       |overflowULAbit:bit31|                ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31                                               ; overflowULAbit       ; work         ;
+;          |mux1Bit2x1:MUX_INV_A|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit2x1:MUX_INV_A                          ; mux1Bit2x1           ; work         ;
+;          |mux1Bit2x1:MUX_INV_B|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit2x1:MUX_INV_B                          ; mux1Bit2x1           ; work         ;
+;          |mux1Bit4x1:MUX_RESULT|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULA:ULA|overflowULAbit:bit31|mux1Bit4x1:MUX_RESULT                         ; mux1Bit4x1           ; work         ;
+;    |ULAcntrl:ULAcntrl|                      ; 9 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULAcntrl:ULAcntrl                                                          ; ULAcntrl             ; work         ;
+;       |muxGenerico2x1:MUX_OPCODE_FUNCT|     ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|ULAcntrl:ULAcntrl|muxGenerico2x1:MUX_OPCODE_FUNCT                          ; muxGenerico2x1       ; work         ;
+;    |bancoReg:B_REG|                         ; 95 (95)             ; 151 (151)                 ; 2048              ; 0          ; 0    ; 0            ; |MIPS|bancoReg:B_REG                                                             ; bancoReg             ; work         ;
+;       |altsyncram:registrador_rtl_0|        ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |MIPS|bancoReg:B_REG|altsyncram:registrador_rtl_0                                ; altsyncram           ; work         ;
+;          |altsyncram_6ji1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |MIPS|bancoReg:B_REG|altsyncram:registrador_rtl_0|altsyncram_6ji1:auto_generated ; altsyncram_6ji1      ; work         ;
+;       |altsyncram:registrador_rtl_1|        ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |MIPS|bancoReg:B_REG|altsyncram:registrador_rtl_1                                ; altsyncram           ; work         ;
+;          |altsyncram_6ji1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |MIPS|bancoReg:B_REG|altsyncram:registrador_rtl_1|altsyncram_6ji1:auto_generated ; altsyncram_6ji1      ; work         ;
+;    |edgeDetector:\gravar:EDGE_DETECT_CLK|   ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|edgeDetector:\gravar:EDGE_DETECT_CLK                                       ; edgeDetector         ; work         ;
+;    |edgeDetector:\gravar:EDGE_DETECT_RESET| ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|edgeDetector:\gravar:EDGE_DETECT_RESET                                     ; edgeDetector         ; work         ;
+;    |estendeSinalGenerico:EXT_SINAL|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|estendeSinalGenerico:EXT_SINAL                                             ; estendeSinalGenerico ; work         ;
+;    |hexTo7seg:DEC_HEX0|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX0                                                         ; hexTo7seg            ; work         ;
+;    |hexTo7seg:DEC_HEX1|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX1                                                         ; hexTo7seg            ; work         ;
+;    |hexTo7seg:DEC_HEX2|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX2                                                         ; hexTo7seg            ; work         ;
+;    |hexTo7seg:DEC_HEX3|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX3                                                         ; hexTo7seg            ; work         ;
+;    |hexTo7seg:DEC_HEX4|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX4                                                         ; hexTo7seg            ; work         ;
+;    |hexTo7seg:DEC_HEX5|                     ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|hexTo7seg:DEC_HEX5                                                         ; hexTo7seg            ; work         ;
+;    |mux1Bit2x1:M_BEQ|                       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|mux1Bit2x1:M_BEQ                                                           ; mux1Bit2x1           ; work         ;
+;    |muxGenerico2x1:M_JMP|                   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico2x1:M_JMP                                                       ; muxGenerico2x1       ; work         ;
+;    |muxGenerico2x1:M_PROX_PC|               ; 33 (33)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico2x1:M_PROX_PC                                                   ; muxGenerico2x1       ; work         ;
+;    |muxGenerico4x1:M_DD_ESCR|               ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico4x1:M_DD_ESCR                                                   ; muxGenerico4x1       ; work         ;
+;    |muxGenerico4x1:M_HEX|                   ; 34 (34)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico4x1:M_HEX                                                       ; muxGenerico4x1       ; work         ;
+;    |muxGenerico4x1:M_RtRd31|                ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|muxGenerico4x1:M_RtRd31                                                    ; muxGenerico4x1       ; work         ;
+;    |registradorGenerico:PC|                 ; 3 (3)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:PC                                                     ; registradorGenerico  ; work         ;
+;    |registradorGenerico:REG_ID_EX|          ; 2 (2)               ; 126 (126)                 ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:REG_ID_EX                                              ; registradorGenerico  ; work         ;
+;    |registradorGenerico:REG_IF_ID|          ; 0 (0)               ; 57 (57)                   ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:REG_IF_ID                                              ; registradorGenerico  ; work         ;
+;    |registradorGenerico:R_EX_MEM|           ; 1 (1)               ; 149 (149)                 ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:R_EX_MEM                                               ; registradorGenerico  ; work         ;
+;    |registradorGenerico:R_MEM_WB|           ; 0 (0)               ; 115 (115)                 ; 0                 ; 0          ; 0    ; 0            ; |MIPS|registradorGenerico:R_MEM_WB                                               ; registradorGenerico  ; work         ;
+;    |somaConstante:INC_PC4|                  ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MIPS|somaConstante:INC_PC4                                                      ; somaConstante        ; work         ;
++---------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                          ;
++---------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++---------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; bancoReg:B_REG|altsyncram:registrador_rtl_0|altsyncram_6ji1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 32           ; 32           ; 32           ; 32           ; 1024 ; None ;
+; bancoReg:B_REG|altsyncram:registrador_rtl_1|altsyncram_6ji1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 32           ; 32           ; 32           ; 32           ; 1024 ; None ;
++---------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                    ;
++-------------------------------------------------+-----------------------------------------------------+
+; Register name                                   ; Reason for Removal                                  ;
++-------------------------------------------------+-----------------------------------------------------+
+; registradorGenerico:REG_ID_EX|DOUT[128..143]    ; Stuck at GND due to stuck port data_in              ;
+; registradorGenerico:R_EX_MEM|DOUT[32..47]       ; Stuck at GND due to stuck port data_in              ;
+; registradorGenerico:R_MEM_WB|DOUT[32..47]       ; Stuck at GND due to stuck port data_in              ;
+; registradorGenerico:R_EX_MEM|DOUT[1]            ; Merged with registradorGenerico:R_EX_MEM|DOUT[65]   ;
+; registradorGenerico:R_EX_MEM|DOUT[0]            ; Merged with registradorGenerico:R_EX_MEM|DOUT[64]   ;
+; registradorGenerico:REG_ID_EX|DOUT[111,159]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[195] ;
+; registradorGenerico:REG_ID_EX|DOUT[110,158]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[194] ;
+; registradorGenerico:REG_ID_EX|DOUT[109,157]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[193] ;
+; registradorGenerico:REG_ID_EX|DOUT[108,156]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[192] ;
+; registradorGenerico:REG_ID_EX|DOUT[107,155]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[191] ;
+; registradorGenerico:REG_ID_EX|DOUT[101,149]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[185] ;
+; registradorGenerico:REG_ID_EX|DOUT[100,148]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[184] ;
+; registradorGenerico:REG_ID_EX|DOUT[99,147]      ; Merged with registradorGenerico:REG_ID_EX|DOUT[183] ;
+; registradorGenerico:REG_ID_EX|DOUT[98,146]      ; Merged with registradorGenerico:REG_ID_EX|DOUT[182] ;
+; registradorGenerico:REG_ID_EX|DOUT[97,145]      ; Merged with registradorGenerico:REG_ID_EX|DOUT[181] ;
+; registradorGenerico:REG_ID_EX|DOUT[96,144]      ; Merged with registradorGenerico:REG_ID_EX|DOUT[180] ;
+; registradorGenerico:REG_ID_EX|DOUT[106]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[154] ;
+; registradorGenerico:REG_ID_EX|DOUT[105]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[153] ;
+; registradorGenerico:REG_ID_EX|DOUT[104]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[152] ;
+; registradorGenerico:REG_ID_EX|DOUT[103]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[151] ;
+; registradorGenerico:REG_ID_EX|DOUT[102]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[150] ;
+; registradorGenerico:REG_ID_EX|DOUT[170]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[166] ;
+; registradorGenerico:REG_ID_EX|DOUT[113..127]    ; Merged with registradorGenerico:REG_ID_EX|DOUT[112] ;
+; registradorGenerico:R_EX_MEM|DOUT[168]          ; Lost fanout                                         ;
+; registradorGenerico:REG_ID_EX|DOUT[161]         ; Lost fanout                                         ;
+; registradorGenerico:REG_IF_ID|DOUT[52]          ; Merged with registradorGenerico:REG_IF_ID|DOUT[62]  ;
+; registradorGenerico:REG_IF_ID|DOUT[39,41]       ; Merged with registradorGenerico:REG_IF_ID|DOUT[47]  ;
+; registradorGenerico:REG_IF_ID|DOUT[36,38,40]    ; Merged with registradorGenerico:REG_IF_ID|DOUT[42]  ;
+; registradorGenerico:REG_ID_EX|DOUT[151,153]     ; Merged with registradorGenerico:REG_ID_EX|DOUT[195] ;
+; registradorGenerico:REG_ID_EX|DOUT[178]         ; Merged with registradorGenerico:REG_ID_EX|DOUT[190] ;
+; registradorGenerico:REG_ID_EX|DOUT[150,152,154] ; Merged with registradorGenerico:REG_ID_EX|DOUT[184] ;
+; registradorGenerico:R_EX_MEM|DOUT[55,57]        ; Merged with registradorGenerico:R_EX_MEM|DOUT[63]   ;
+; registradorGenerico:R_EX_MEM|DOUT[52,54,56]     ; Merged with registradorGenerico:R_EX_MEM|DOUT[58]   ;
+; registradorGenerico:R_MEM_WB|DOUT[55,57]        ; Merged with registradorGenerico:R_MEM_WB|DOUT[63]   ;
+; registradorGenerico:R_MEM_WB|DOUT[52,54,56]     ; Merged with registradorGenerico:R_MEM_WB|DOUT[58]   ;
+; registradorGenerico:REG_IF_ID|DOUT[62]          ; Stuck at GND due to stuck port data_in              ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[10]     ; Stuck at GND due to stuck port data_in              ;
+; registradorGenerico:REG_ID_EX|DOUT[190]         ; Stuck at GND due to stuck port data_in              ;
+; Total Number of Removed Registers = 120         ;                                                     ;
++-------------------------------------------------+-----------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                        ;
++-----------------------------------------+---------------------------+------------------------------------------------------------------------------+
+; Register name                           ; Reason for Removal        ; Registers Removed due to This Register                                       ;
++-----------------------------------------+---------------------------+------------------------------------------------------------------------------+
+; registradorGenerico:REG_ID_EX|DOUT[143] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[47], registradorGenerico:R_MEM_WB|DOUT[47] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[142] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[46], registradorGenerico:R_MEM_WB|DOUT[46] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[141] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[45], registradorGenerico:R_MEM_WB|DOUT[45] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[140] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[44], registradorGenerico:R_MEM_WB|DOUT[44] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[139] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[43], registradorGenerico:R_MEM_WB|DOUT[43] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[138] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[42], registradorGenerico:R_MEM_WB|DOUT[42] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[137] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[41], registradorGenerico:R_MEM_WB|DOUT[41] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[136] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[40], registradorGenerico:R_MEM_WB|DOUT[40] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[135] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[39], registradorGenerico:R_MEM_WB|DOUT[39] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[134] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[38], registradorGenerico:R_MEM_WB|DOUT[38] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[133] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[37], registradorGenerico:R_MEM_WB|DOUT[37] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[132] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[36], registradorGenerico:R_MEM_WB|DOUT[36] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[131] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[35], registradorGenerico:R_MEM_WB|DOUT[35] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[130] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[34], registradorGenerico:R_MEM_WB|DOUT[34] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[129] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[33], registradorGenerico:R_MEM_WB|DOUT[33] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:REG_ID_EX|DOUT[128] ; Stuck at GND              ; registradorGenerico:R_EX_MEM|DOUT[32], registradorGenerico:R_MEM_WB|DOUT[32] ;
+;                                         ; due to stuck port data_in ;                                                                              ;
+; registradorGenerico:R_EX_MEM|DOUT[168]  ; Lost Fanouts              ; registradorGenerico:REG_ID_EX|DOUT[161]                                      ;
+; registradorGenerico:REG_IF_ID|DOUT[62]  ; Stuck at GND              ; registradorGenerico:REG_ID_EX|DOUT[190]                                      ;
+;                                         ; due to stuck port data_in ;                                                                              ;
++-----------------------------------------+---------------------------+------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -435,14 +581,108 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3106  ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 2680  ;
+; Number of registers using Synchronous Clear  ; 37    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 32    ;
+; Number of registers using Asynchronous Clear ; 490   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 3074  ;
+; Number of registers using Clock Enable       ; 2114  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Added for RAM Pass-Through Logic                                     ;
++---------------------------------------------+----------------------------------+
+; Register Name                               ; RAM Name                         ;
++---------------------------------------------+----------------------------------+
+; bancoReg:B_REG|registrador_rtl_0_bypass[0]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[1]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[2]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[3]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[4]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[5]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[6]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[7]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[8]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[9]  ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[10] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[11] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[12] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[13] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[14] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[15] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[16] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[17] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[18] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[19] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[20] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[21] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[22] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[23] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[24] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[25] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[26] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[27] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[28] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[29] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[30] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[31] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[32] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[33] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[34] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[35] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[36] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[37] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[38] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[39] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[40] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[41] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_0_bypass[42] ; bancoReg:B_REG|registrador_rtl_0 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[0]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[1]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[2]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[3]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[4]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[5]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[6]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[7]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[8]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[9]  ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[10] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[11] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[12] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[13] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[14] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[15] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[16] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[17] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[18] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[19] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[20] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[21] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[22] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[23] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[24] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[25] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[26] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[27] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[28] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[29] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[30] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[31] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[32] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[33] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[34] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[35] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[36] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[37] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[38] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[39] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[40] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[41] ; bancoReg:B_REG|registrador_rtl_1 ;
+; bancoReg:B_REG|registrador_rtl_1_bypass[42] ; bancoReg:B_REG|registrador_rtl_1 ;
++---------------------------------------------+----------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -450,15 +690,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[0]                          ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[28]                         ;
-; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[14]                         ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |MIPS|ULA:ULA|avgULAbit:bit16|mux1Bit2x1:MUX_INV_B|saida_MUX  ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |MIPS|Control:UNIDADE_CTRL|pControle[5]                       ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |MIPS|ULA:ULA|avgULAbit:bit06|mux1Bit4x1:MUX_RESULT|saida_MUX ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:MUX_DADO_ESCRITO|saida_MUX[7]            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:MUX_DADO_ESCRITO|saida_MUX[30]           ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[31]                         ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:R_EX_MEM|DOUT[163]                  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[0]                          ;
+; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; Yes        ; |MIPS|registradorGenerico:PC|DOUT[5]                          ;
+; 6:1                ; 32 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; Yes        ; |MIPS|registradorGenerico:REG_ID_EX|DOUT[83]                  ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |MIPS|ULA:ULA|avgULAbit:bit10|mux1Bit2x1:MUX_INV_B|saida_MUX  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:M_HEX|saida_MUX[0]                       ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |MIPS|ULA:ULA|avgULAbit:bit04|mux1Bit4x1:MUX_RESULT|saida_MUX ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:M_DD_ESCR|saida_MUX[7]                   ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:M_DD_ESCR|saida_MUX[26]                  ;
+; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |MIPS|muxGenerico4x1:M_HEX|saida_MUX[24]                      ;
+; 6:1                ; 32 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; No         ; |MIPS|bancoReg:B_REG|saidaA[18]                               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Source assignments for bancoReg:B_REG|altsyncram:registrador_rtl_0|altsyncram_6ji1:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------+
+; Assignment                      ; Value              ; From ; To                                  ;
++---------------------------------+--------------------+------+-------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                   ;
++---------------------------------+--------------------+------+-------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Source assignments for bancoReg:B_REG|altsyncram:registrador_rtl_1|altsyncram_6ji1:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------+
+; Assignment                      ; Value              ; From ; To                                  ;
++---------------------------------+--------------------+------+-------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                   ;
++---------------------------------+--------------------+------+-------------------------------------+
 
 
 +----------------------------------------------------------------------+
@@ -468,6 +730,36 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------+---------------------------------------------+
 ; simulacao      ; false ; Enumerated                                  ;
 +----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico2x1:M_PC4_ADD ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico2x1:M_JMP ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico2x1:M_PROX_PC ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -504,24 +796,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico4x1:MUX_Rt_Rd_R31 ;
-+----------------+-------+--------------------------------------------------+
-; Parameter Name ; Value ; Type                                             ;
-+----------------+-------+--------------------------------------------------+
-; larguradados   ; 5     ; Signed Integer                                   ;
-+----------------+-------+--------------------------------------------------+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registradorGenerico:REG_IF_ID ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; larguradados   ; 64    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: bancoReg:BANCO_REG ;
-+---------------------+-------+-----------------------------------+
-; Parameter Name      ; Value ; Type                              ;
-+---------------------+-------+-----------------------------------+
-; larguradados        ; 32    ; Signed Integer                    ;
-; larguraendbancoregs ; 5     ; Signed Integer                    ;
-+---------------------+-------+-----------------------------------+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: bancoReg:B_REG ;
++---------------------+-------+-------------------------------+
+; Parameter Name      ; Value ; Type                          ;
++---------------------+-------+-------------------------------+
+; larguradados        ; 32    ; Signed Integer                ;
+; larguraendbancoregs ; 5     ; Signed Integer                ;
++---------------------+-------+-------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -536,13 +828,33 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_Rt_IMM ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registradorGenerico:REG_ID_EX ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; larguradados   ; 196   ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico4x1:M_RtRd31 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; larguradados   ; 5     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico2x1:M_Rt_IMM ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -566,6 +878,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registradorGenerico:R_EX_MEM ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; larguradados   ; 173   ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: RAMMIPS:RAM ;
 +-----------------+-------+--------------------------------+
@@ -578,54 +900,187 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico4x1:MUX_DADO_ESCRITO ;
-+----------------+-------+-----------------------------------------------------+
-; Parameter Name ; Value ; Type                                                ;
-+----------------+-------+-----------------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                                      ;
-+----------------+-------+-----------------------------------------------------+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registradorGenerico:R_MEM_WB ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; larguradados   ; 136   ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_PC4_IMM ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico4x1:M_DD_ESCR ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_BRANCH ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: muxGenerico4x1:M_HEX ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; larguradados   ; 32    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_PROX_PC ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: bancoReg:B_REG|altsyncram:registrador_rtl_0 ;
++------------------------------------+----------------------+----------------------------------+
+; Parameter Name                     ; Value                ; Type                             ;
++------------------------------------+----------------------+----------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                          ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                       ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                     ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                     ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                   ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                          ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                          ;
+; WIDTH_A                            ; 32                   ; Untyped                          ;
+; WIDTHAD_A                          ; 5                    ; Untyped                          ;
+; NUMWORDS_A                         ; 32                   ; Untyped                          ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                          ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                          ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                          ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                          ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                          ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                          ;
+; WIDTH_B                            ; 32                   ; Untyped                          ;
+; WIDTHAD_B                          ; 5                    ; Untyped                          ;
+; NUMWORDS_B                         ; 32                   ; Untyped                          ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                          ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                          ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                          ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                          ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                          ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                          ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                          ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                          ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                          ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                          ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                          ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                          ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                          ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                          ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                          ;
+; BYTE_SIZE                          ; 8                    ; Untyped                          ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                          ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                          ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                          ;
+; INIT_FILE                          ; UNUSED               ; Untyped                          ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                          ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                          ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                          ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                          ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                          ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                          ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                          ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                          ;
+; CBXI_PARAMETER                     ; altsyncram_6ji1      ; Untyped                          ;
++------------------------------------+----------------------+----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: muxGenerico2x1:MUX_HEX ;
-+----------------+-------+--------------------------------------------+
-; Parameter Name ; Value ; Type                                       ;
-+----------------+-------+--------------------------------------------+
-; larguradados   ; 32    ; Signed Integer                             ;
-+----------------+-------+--------------------------------------------+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: bancoReg:B_REG|altsyncram:registrador_rtl_1 ;
++------------------------------------+----------------------+----------------------------------+
+; Parameter Name                     ; Value                ; Type                             ;
++------------------------------------+----------------------+----------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                          ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                       ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                     ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                     ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                   ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                          ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                          ;
+; WIDTH_A                            ; 32                   ; Untyped                          ;
+; WIDTHAD_A                          ; 5                    ; Untyped                          ;
+; NUMWORDS_A                         ; 32                   ; Untyped                          ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                          ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                          ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                          ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                          ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                          ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                          ;
+; WIDTH_B                            ; 32                   ; Untyped                          ;
+; WIDTHAD_B                          ; 5                    ; Untyped                          ;
+; NUMWORDS_B                         ; 32                   ; Untyped                          ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                          ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                          ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                          ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                          ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                          ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                          ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                          ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                          ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                          ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                          ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                          ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                          ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                          ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                          ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                          ;
+; BYTE_SIZE                          ; 8                    ; Untyped                          ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                          ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                          ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                          ;
+; INIT_FILE                          ; UNUSED               ; Untyped                          ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                          ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                          ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                          ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                          ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                          ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                          ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                          ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                          ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                          ;
+; CBXI_PARAMETER                     ; altsyncram_6ji1      ; Untyped                          ;
++------------------------------------+----------------------+----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                        ;
++-------------------------------------------+---------------------------------------------+
+; Name                                      ; Value                                       ;
++-------------------------------------------+---------------------------------------------+
+; Number of entity instances                ; 2                                           ;
+; Entity Instance                           ; bancoReg:B_REG|altsyncram:registrador_rtl_0 ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                   ;
+;     -- WIDTH_A                            ; 32                                          ;
+;     -- NUMWORDS_A                         ; 32                                          ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                ;
+;     -- WIDTH_B                            ; 32                                          ;
+;     -- NUMWORDS_B                         ; 32                                          ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                      ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                        ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ;
+; Entity Instance                           ; bancoReg:B_REG|altsyncram:registrador_rtl_1 ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                   ;
+;     -- WIDTH_A                            ; 32                                          ;
+;     -- NUMWORDS_A                         ; 32                                          ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                ;
+;     -- WIDTH_B                            ; 32                                          ;
+;     -- NUMWORDS_B                         ; 32                                          ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                      ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                        ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ;
++-------------------------------------------+---------------------------------------------+
 
 
 +------------------------------------------------+
@@ -694,13 +1149,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+-------+----------+------------------+
 
 
-+-------------------------------------------------------+
-; Port Connectivity Checks: "muxGenerico2x1:MUX_BRANCH" ;
-+--------------------+-------+----------+---------------+
-; Port               ; Type  ; Severity ; Details       ;
-+--------------------+-------+----------+---------------+
-; entradab_mux[1..0] ; Input ; Info     ; Stuck at GND  ;
-+--------------------+-------+----------+---------------+
++----------------------------------------------------------+
+; Port Connectivity Checks: "registradorGenerico:R_MEM_WB" ;
++--------+-------+----------+------------------------------+
+; Port   ; Type  ; Severity ; Details                      ;
++--------+-------+----------+------------------------------+
+; enable ; Input ; Info     ; Stuck at VCC                 ;
++--------+-------+----------+------------------------------+
 
 
 +--------------------------------------------+
@@ -710,6 +1165,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+-------+----------+--------------+
 ; habilita ; Input ; Info     ; Stuck at VCC ;
 +----------+-------+----------+--------------+
+
+
++----------------------------------------------------------+
+; Port Connectivity Checks: "registradorGenerico:R_EX_MEM" ;
++--------+-------+----------+------------------------------+
+; Port   ; Type  ; Severity ; Details                      ;
++--------+-------+----------+------------------------------+
+; enable ; Input ; Info     ; Stuck at VCC                 ;
++--------+-------+----------+------------------------------+
 
 
 +----------------------------------------------------------+
@@ -991,14 +1455,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+---------------------------+
 
 
-+----------------------------------------------------------+
-; Port Connectivity Checks: "muxGenerico4x1:MUX_Rt_Rd_R31" ;
-+--------------+-------+----------+------------------------+
-; Port         ; Type  ; Severity ; Details                ;
-+--------------+-------+----------+------------------------+
-; entradac_mux ; Input ; Info     ; Stuck at VCC           ;
-; entradad_mux ; Input ; Info     ; Stuck at GND           ;
-+--------------+-------+----------+------------------------+
++-----------------------------------------------------+
+; Port Connectivity Checks: "muxGenerico4x1:M_RtRd31" ;
++--------------+-------+----------+-------------------+
+; Port         ; Type  ; Severity ; Details           ;
++--------------+-------+----------+-------------------+
+; entradac_mux ; Input ; Info     ; Stuck at VCC      ;
+; entradad_mux ; Input ; Info     ; Stuck at GND      ;
++--------------+-------+----------+-------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registradorGenerico:REG_ID_EX"                                                                ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; dout[173..172] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; dout[169]      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; enable         ; Input  ; Info     ; Stuck at VCC                                                                        ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "registradorGenerico:REG_IF_ID" ;
++--------+-------+----------+-------------------------------+
+; Port   ; Type  ; Severity ; Details                       ;
++--------+-------+----------+-------------------------------+
+; enable ; Input ; Info     ; Stuck at VCC                  ;
++--------+-------+----------+-------------------------------+
 
 
 +----------------------------------------------------+
@@ -1010,36 +1494,45 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+-------+----------+------------------------+
 
 
++------------------------------------------------------+
+; Port Connectivity Checks: "muxGenerico2x1:M_JMP"     ;
++--------------------+-------+----------+--------------+
+; Port               ; Type  ; Severity ; Details      ;
++--------------------+-------+----------+--------------+
+; entradab_mux[1..0] ; Input ; Info     ; Stuck at GND ;
++--------------------+-------+----------+--------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 3106                        ;
-;     CLR               ; 30                          ;
-;     ENA               ; 3072                        ;
+; arriav_ff             ; 2680                        ;
+;     CLR               ; 451                         ;
+;     CLR SCLR          ; 37                          ;
+;     ENA               ; 2112                        ;
 ;     ENA CLR           ; 2                           ;
-;     plain             ; 2                           ;
-; arriav_lcell_comb     ; 1835                        ;
+;     plain             ; 78                          ;
+; arriav_lcell_comb     ; 1329                        ;
 ;     arith             ; 60                          ;
 ;         1 data inputs ; 30                          ;
-;         3 data inputs ; 1                           ;
-;         4 data inputs ; 15                          ;
-;         5 data inputs ; 14                          ;
-;     extend            ; 266                         ;
-;         7 data inputs ; 266                         ;
-;     normal            ; 1509                        ;
+;         2 data inputs ; 30                          ;
+;     extend            ; 16                          ;
+;         7 data inputs ; 16                          ;
+;     normal            ; 1253                        ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 48                          ;
-;         2 data inputs ; 162                         ;
-;         3 data inputs ; 53                          ;
-;         4 data inputs ; 114                         ;
-;         5 data inputs ; 62                          ;
-;         6 data inputs ; 1069                        ;
-; boundary_port         ; 68                          ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 99                          ;
+;         3 data inputs ; 31                          ;
+;         4 data inputs ; 98                          ;
+;         5 data inputs ; 77                          ;
+;         6 data inputs ; 943                         ;
+; boundary_port         ; 196                         ;
+; stratixv_ram_block    ; 64                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 20.00                       ;
-; Average LUT depth     ; 9.83                        ;
+; Max LUT depth         ; 18.00                       ;
+; Average LUT depth     ; 3.67                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1048,7 +1541,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:05     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -1058,7 +1551,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Sun May 19 18:50:51 2024
+    Info: Processing started: Sat Jun 01 22:02:00 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Projeto2 -c Projeto2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -1105,7 +1598,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file lui.vhd
     Info (12022): Found design unit 1: LUI-comportamento File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/LUI.vhd Line: 17
     Info (12023): Found entity 1: LUI File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/LUI.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file mips.vhd
-    Info (12022): Found design unit 1: MIPS-comportamento File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 26
+    Info (12022): Found design unit 1: MIPS-comportamento File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 32
     Info (12023): Found entity 1: MIPS File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file hexto7seg.vhd
     Info (12022): Found design unit 1: hexTo7seg-comportamento File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/hexTo7seg.vhd Line: 17
@@ -1120,38 +1613,41 @@ Info (12021): Found 3 design units, including 1 entities, in source file edgedet
     Info (12022): Found design unit 1: edgeDetector-bordaSubida File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd Line: 10
     Info (12022): Found design unit 2: edgeDetector-bordaDescida File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd Line: 23
     Info (12023): Found entity 1: edgeDetector File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/edgeDetector.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file instructionfetch.vhd
+    Info (12022): Found design unit 1: instructionFetch-Behavioral File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/instructionFetch.vhd Line: 15
+    Info (12023): Found entity 1: instructionFetch File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/instructionFetch.vhd Line: 5
 Info (12127): Elaborating entity "MIPS" for the top level hierarchy
-Warning (10873): Using initial value X (don't care) for net "LEDR[9..8]" at MIPS.vhd(16) File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 16
-Info (12129): Elaborating entity "edgeDetector" using architecture "A:bordasubida" for hierarchy "edgeDetector:\gravar:EDGE_DETECT_CLK" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 108
-Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:PC" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 116
-Info (12128): Elaborating entity "somaConstante" for hierarchy "somaConstante:INC_PC4" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 125
-Info (12128): Elaborating entity "ROMMIPS" for hierarchy "ROMMIPS:ROM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 131
+Info (12129): Elaborating entity "edgeDetector" using architecture "A:bordasubida" for hierarchy "edgeDetector:\gravar:EDGE_DETECT_CLK" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 242
+Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "muxGenerico2x1:M_PC4_ADD" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 252
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:PC" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 276
+Info (12128): Elaborating entity "somaConstante" for hierarchy "somaConstante:INC_PC4" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 285
+Info (12128): Elaborating entity "ROMMIPS" for hierarchy "ROMMIPS:ROM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 291
 Warning (10541): VHDL Signal Declaration warning at ROMMIPS.vhd(20): used implicit default value for signal "memROM" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMMIPS.vhd Line: 20
-Info (12128): Elaborating entity "Control" for hierarchy "Control:UNIDADE_CTRL" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 137
-Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "muxGenerico4x1:MUX_Rt_Rd_R31" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 144
-Info (12128): Elaborating entity "bancoReg" for hierarchy "bancoReg:BANCO_REG" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 155
-Info (12128): Elaborating entity "estendeSinalGenerico" for hierarchy "estendeSinalGenerico:EXT_SINAL" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 167
-Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "muxGenerico2x1:MUX_Rt_IMM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 174
-Info (12128): Elaborating entity "ULAcntrl" for hierarchy "ULAcntrl:ULAcntrl" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 182
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:REG_IF_ID" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 301
+Info (12128): Elaborating entity "bancoReg" for hierarchy "bancoReg:B_REG" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 313
+Info (12128): Elaborating entity "Control" for hierarchy "Control:UNI_CTRL" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 325
+Info (12128): Elaborating entity "estendeSinalGenerico" for hierarchy "estendeSinalGenerico:EXT_SINAL" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 332
+Info (12128): Elaborating entity "LUI" for hierarchy "LUI:LUI" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 339
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:REG_ID_EX" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 357
+Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "muxGenerico4x1:M_RtRd31" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 369
+Info (12128): Elaborating entity "ULAcntrl" for hierarchy "ULAcntrl:ULAcntrl" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 388
 Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "ULAcntrl:ULAcntrl|muxGenerico2x1:MUX_OPCODE_FUNCT" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULAcntrl.vhd Line: 50
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ULA" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 190
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ULA" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 396
 Warning (10540): VHDL Signal Declaration warning at ULA.vhd(59): used explicit default value for signal "zero" because signal was never assigned a value File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd Line: 59
 Info (12128): Elaborating entity "avgULAbit" for hierarchy "ULA:ULA|avgULAbit:bit00" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd Line: 67
 Info (12128): Elaborating entity "mux1Bit2x1" for hierarchy "ULA:ULA|avgULAbit:bit00|mux1Bit2x1:MUX_INV_A" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/avgULAbit.vhd Line: 19
 Info (12128): Elaborating entity "mux1Bit4x1" for hierarchy "ULA:ULA|avgULAbit:bit00|mux1Bit4x1:MUX_RESULT" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/avgULAbit.vhd Line: 33
 Info (12128): Elaborating entity "overflowULAbit" for hierarchy "ULA:ULA|overflowULAbit:bit31" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ULA.vhd Line: 440
-Info (12128): Elaborating entity "RAMMIPS" for hierarchy "RAMMIPS:RAM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 207
-Info (12128): Elaborating entity "LUI" for hierarchy "LUI:LUI" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 218
-Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "muxGenerico4x1:MUX_DADO_ESCRITO" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 224
-Info (12128): Elaborating entity "hexTo7seg" for hierarchy "hexTo7seg:DEC_HEX0" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 272
-Info (276014): Found 3 instances of uninferred RAM logic
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:R_EX_MEM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 434
+Info (12128): Elaborating entity "RAMMIPS" for hierarchy "RAMMIPS:RAM" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 446
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:R_MEM_WB" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 466
+Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "muxGenerico4x1:M_DD_ESCR" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 478
+Info (12128): Elaborating entity "hexTo7seg" for hierarchy "hexTo7seg:DEC_HEX0" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 498
+Warning (276020): Inferred RAM node "bancoReg:B_REG|registrador_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Warning (276020): Inferred RAM node "bancoReg:B_REG|registrador_rtl_1" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Info (276014): Found 2 instances of uninferred RAM logic
     Info (276007): RAM logic "RAMMIPS:RAM|memRAM" is uninferred due to asynchronous read logic File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 21
-    Info (276007): RAM logic "bancoReg:BANCO_REG|registrador" is uninferred due to asynchronous read logic File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/bancoReg.vhd Line: 52
     Info (276004): RAM logic "ROMMIPS:ROM|memROM" is uninferred due to inappropriate RAM size File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMMIPS.vhd Line: 20
-Warning (113028): 46 out of 64 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 3 warnings found, and 3 warnings are reported. File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMcontent.mif Line: 1
-    Warning (113026): Memory Initialization File Address 16 is not initialized File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMcontent.mif Line: 1
-    Warning (113027): Addresses ranging from 18 to 30 are not initialized File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMcontent.mif Line: 1
-    Warning (113027): Addresses ranging from 32 to 63 are not initialized File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/ROMcontent.mif Line: 1
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "RAMMIPS:RAM|Dado_out[12]" feeding internal logic into a wire File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 13
     Warning (13049): Converted tri-state buffer "RAMMIPS:RAM|Dado_out[11]" feeding internal logic into a wire File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 13
@@ -1185,17 +1681,79 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "RAMMIPS:RAM|Dado_out[29]" feeding internal logic into a wire File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 13
     Warning (13049): Converted tri-state buffer "RAMMIPS:RAM|Dado_out[30]" feeding internal logic into a wire File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 13
     Warning (13049): Converted tri-state buffer "RAMMIPS:RAM|Dado_out[31]" feeding internal logic into a wire File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/RAMMIPS.vhd Line: 13
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 16
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 16
+Info (19000): Inferred 2 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "bancoReg:B_REG|registrador_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 5
+        Info (286033): Parameter NUMWORDS_A set to 32
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 5
+        Info (286033): Parameter NUMWORDS_B set to 32
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "bancoReg:B_REG|registrador_rtl_1" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 5
+        Info (286033): Parameter NUMWORDS_A set to 32
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 5
+        Info (286033): Parameter NUMWORDS_B set to 32
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+Info (12130): Elaborated megafunction instantiation "bancoReg:B_REG|altsyncram:registrador_rtl_0"
+Info (12133): Instantiated megafunction "bancoReg:B_REG|altsyncram:registrador_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "5"
+    Info (12134): Parameter "NUMWORDS_A" = "32"
+    Info (12134): Parameter "WIDTH_B" = "32"
+    Info (12134): Parameter "WIDTHAD_B" = "5"
+    Info (12134): Parameter "NUMWORDS_B" = "32"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_6ji1.tdf
+    Info (12023): Found entity 1: altsyncram_6ji1 File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/db/altsyncram_6ji1.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "bancoReg:B_REG|altsyncram:registrador_rtl_1"
+Info (12133): Instantiated megafunction "bancoReg:B_REG|altsyncram:registrador_rtl_1" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "5"
+    Info (12134): Parameter "NUMWORDS_A" = "32"
+    Info (12134): Parameter "WIDTH_B" = "32"
+    Info (12134): Parameter "WIDTHAD_B" = "5"
+    Info (12134): Parameter "NUMWORDS_B" = "32"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
 Info (286030): Timing-Driven Synthesis is running
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 12 input pin(s) that do not drive logic
+Warning (21074): Design contains 11 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 12
     Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 12
     Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 12
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
     Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
     Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
     Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
@@ -1204,14 +1762,15 @@ Warning (21074): Design contains 12 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
     Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
     Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Gabriel/Desktop/INSPER/6semestre/DESCOMP/projeto2_descomp/MIPS.vhd Line: 13
-Info (21057): Implemented 4928 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4111 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
-    Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 4860 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 57 warnings
-    Info: Peak virtual memory: 4904 megabytes
-    Info: Processing ended: Sun May 19 18:51:04 2024
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:13
+    Info (21059): Implemented 180 output pins
+    Info (21061): Implemented 3851 logic cells
+    Info (21064): Implemented 64 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 50 warnings
+    Info: Peak virtual memory: 4914 megabytes
+    Info: Processing ended: Sat Jun 01 22:02:14 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:14
 
 
